@@ -34,14 +34,21 @@ body{
     height: 50px;
     width: 20px;
     border: none;
+    border-radius: 50px;
     transition: width .4s ease;
     -webkit-transition: width .4s ease;
     -moz-transition: width .4s ease;
     -ms-transition: width .4s ease;
     -o-transition: width .4s ease;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 .search.active .input{
     width: 300px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }
 .search .btn{
    padding: 15px;
@@ -53,6 +60,7 @@ body{
    width: 50px;
    height: 60px;
    cursor: pointer;
+   border-radius: 30px;
    box-sizing: border-box;
    transition: right .4s ease;
    -webkit-transition: right .4s ease;
@@ -60,8 +68,14 @@ body{
    -ms-transition: right .4s ease;
    -o-transition: right .4s ease;
    font-size: 24px;
+   -webkit-border-radius:;
+   -moz-border-radius:;
+   -ms-border-radius:;
+   -o-border-radius:;
 }   
 
 .search.active .btn{
     right: 300px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
